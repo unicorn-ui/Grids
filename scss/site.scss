@@ -1,6 +1,3 @@
-@import 'compass';
-@import "compass/css3";
-
 $background: #f4f4f4;
 $border: #EEE;
 $highlight: #7db500;;
@@ -21,14 +18,9 @@ $font: 'Cherry Swash', sans-serif;
 }
 
 @mixin title {
-    -webkit-animation-name: title;
-    -khtml-animation-name: title;
-    -moz-animation-name: title;
-    -ms-animation-name: title;
-    -o-animation-name: title;
     animation-name: title;
-    -webkit-animation-duration: 2.5s;
-    -webkit-animation-iteration-count: 1;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
 }
 
 
@@ -165,7 +157,7 @@ header {
 
     //BUTTON SHOWCASE /////////////////////////
     .showcase {
-        @include border-radius(10px);
+        border-radius: 10px;
         margin: 0px 0px 60px 0px;
         position: relative;
 
@@ -215,7 +207,7 @@ header {
         }
 
         .prettyprint {
-            @include box-shadow(inset 0px 1px 3px rgba(0, 0, 0, .40));
+            box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .40);
             background: #333;
             padding: 10px 5px;
             margin: 0;
@@ -269,8 +261,8 @@ header {
 
 
     .prettyprint {
-        @include box-shadow(inset 0px 1px 3px rgba(0, 0, 0, .40));
-        @include border-radius(3px);
+        box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .40);
+        border-radius: 3px;
         background: #333;
         padding: 5px;
         margin: 0;
@@ -319,14 +311,13 @@ footer {
 
 
 .grid-fixed, .grid-fluid {
-    @include border-radius(3px);
+    border-radius: 3px;
     background: #fff url(../images/old_mathematics.png) top left repeat;
     margin-bottom: 40px;
 
     .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14, .c15, .c16 {
-        @include border-radius(3px);
-        @include box-shadow(0 1px 3px rgba(0, 0, 0, .2));
-        @include background(linear-gradient(#FFF, #EEE));
+        border-radius: 3px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
         background-color: #EEE;
         text-align: center;
         line-height: 50px;
