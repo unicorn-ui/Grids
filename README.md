@@ -42,6 +42,7 @@ Created by Alex Wolfe [@alexwolfe](https://twitter.com/alexwolfe) and Rob Levin 
 - [ ] Improve grid_flexible.html demo
 - [ ] Mobile First Toggle
 - [ ] Default Stacking Toggle
+- [ ] Phone and Tablet Before/After
 - [ ] Fixed Gutter Option (when in fluid grid mode)
 - [ ] Improve Docs
 - [ ] Video Demo
