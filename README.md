@@ -37,3 +37,13 @@ Authors
 ===================
 Created by Alex Wolfe [@alexwolfe](https://twitter.com/alexwolfe) and Rob Levin [@roblevintennis ](https://twitter.com/roblevintennis)
 
+### Task List
+
+- [ ] Improve grid_flexible.html demo
+- [ ] Mobile First Toggle
+- [ ] Default Stacking Toggle
+- [ ] Fixed Gutter Option (when in fluid grid mode)
+- [ ] Improve Docs
+- [ ] Video Demo
+- [ ] Grid Site
+
